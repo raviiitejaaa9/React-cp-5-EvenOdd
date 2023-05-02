@@ -1,0 +1,51 @@
+/* Write your CSS here */
+body {
+  margin: 0px;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+.bg-container {
+  background-color: whitesmoke;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  height: 50vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.head {
+  color: #0f172a;
+}
+
+.para {
+  color: #334155;
+}
+
+.even-odd {
+  color: #334155;
+  font-size: 32px;
+}
+
+.button {
+  border: 0px;
+  color: #0f172a;
+  background-color: #ffffff;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+}
